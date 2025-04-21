@@ -1,0 +1,16 @@
+curl http://localhost:8080/createUser/uwuthless -X POST
+curl http://localhost:8080/createDog/rocket2 -X POST
+curl http://localhost:8080/createWalk/uwuthless2/rocket2 -X POST
+curl http://localhost:8080/increaseUserBalance/uwuthless/10.0 -X POST
+
+#part 3
+curl http://localhost:8080/increaseUserBalanceTransactional/uwuthless/10.0 -X POST
+
+#part 4
+curl http://localhost:8080/getClosestDogs/uwuthless/3 -X GET
+
+curl http://localhost:8080/createDogWithCoords/JojoReference/69/69 -X POST
+curl http://localhost:8080/createDogWithCoordsSerializable/JojoReference/69/69 -X POST
+curl http://localhost:8080/createDogWithCoordsAdvisoryLocked/JojoReference/69/69 -X POST
+
+curl http://localhost:8080/max_walks -X GET
