@@ -1,4 +1,4 @@
-curl http://localhost:8080/createUser/uwuthless -X POST
+curl http://localhost:8080/createUser/uwuthless2 -X POST
 curl http://localhost:8080/createDog/rocket2 -X POST
 curl http://localhost:8080/createWalk/uwuthless2/rocket2 -X POST
 curl http://localhost:8080/increaseUserBalance/uwuthless/10.0 -X POST
